@@ -1,0 +1,134 @@
+@media screen and (min-width: 821px) {
+  .g_sr {
+    margin: 5% 2%;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  #p_sr {
+    margin: 2%;
+    padding: 2% 5%;
+    border: 3px solid black;
+    height: 70vh;
+  }
+  #img_sr {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    height: 35vh;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  #img_sr img {
+    margin: 2%;
+    align-items: center;
+    height: 96%;
+    width: 96%;
+    object-fit: cover;
+  }
+  #p_sr #km_sr:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #sr {
+    margin: 10% 2% 0 2%;
+    text-align: center;
+    font-size: 300%;
+  }
+  nav {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+  }
+
+  .logo {
+    margin-right: 30%;
+    border: 5px solid green;
+    border-radius: 5px;
+    font-size: large;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+  }
+
+  .searchbar {
+    margin-top: 10px;
+    width: 25%;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .searchbar i {
+    position: absolute;
+  }
+
+  i {
+    padding: 10px;
+    font-size: 20px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+    top: 12px;
+    right: 2%;
+  }
+
+  i:hover {
+    cursor: pointer;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+  }
+
+  nav a {
+    margin-top: 1%;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a:hover {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .g_sr {
+    margin: 10% 2%;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+  #p_sr {
+    margin: 2%;
+    padding: 2% 5%;
+    border: 3px solid black;
+    height: 50vh;
+  }
+  #img_sr {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    height: 25vh;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  #img_sr img {
+    margin: 2%;
+    align-items: center;
+    height: 96%;
+    width: 96%;
+    object-fit: cover;
+  }
+  #p_sr #km_sr:hover {
+    cursor: pointer;
+  }
+}
