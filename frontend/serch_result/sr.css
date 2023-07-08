@@ -1,4 +1,9 @@
 @media screen and (min-width: 821px) {
+  #sr {
+    margin: 5% 2% 0 2%;
+    text-align: center;
+    font-size: 300%;
+  }
   .g_sr {
     margin: 5% 2%;
     border: 5px solid black;
@@ -38,68 +43,6 @@
     text-align: center;
     font-size: 300%;
   }
-  nav {
-    border: 1px solid grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 1%;
-  }
-
-  .logo {
-    margin-right: 30%;
-    border: 5px solid green;
-    border-radius: 5px;
-    font-size: large;
-  }
-
-  .logo:hover {
-    cursor: pointer;
-  }
-
-  .searchbar {
-    margin-top: 10px;
-    width: 25%;
-    margin-bottom: 0;
-    position: relative;
-  }
-
-  .searchbar i {
-    position: absolute;
-  }
-
-  i {
-    padding: 10px;
-    font-size: 20px;
-    color: green;
-    min-width: 50px;
-    text-align: center;
-    top: 12px;
-    right: 2%;
-  }
-
-  i:hover {
-    cursor: pointer;
-  }
-
-  input {
-    width: 100%;
-    padding: 10px;
-    text-align: left;
-  }
-
-  nav a {
-    margin-top: 1%;
-    font-size: large;
-    text-decoration: none;
-    color: black;
-  }
-
-  nav a:hover {
-    cursor: pointer;
-    color: blue;
-  }
-
   .g_sr {
     margin: 10% 2%;
     border: 5px solid black;
