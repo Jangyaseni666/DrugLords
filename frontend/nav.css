@@ -33,13 +33,13 @@ nav{
     position: absolute;
 }
 
-i {
+.searchbar i{
     padding: 10px;
     font-size: 20px;
     color: green;
     min-width: 50px;
     text-align: center;
-    top: 12px;
+    top: 5px;
     right: 2%;
 }
 
@@ -47,7 +47,7 @@ i:hover{
     cursor: pointer;
 }
 
-input{
+.searchbar input{
     width: 100%;
     padding: 10px;
     text-align: left;
@@ -63,4 +63,60 @@ nav a{
 nav a:hover{
     cursor: pointer;
     color: blue ;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .logo{
+        margin-right: 5%;
+        border: 5px solid green;
+        border-radius: 5px;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .logo{
+        margin-right: 0%;
+        border: 5px solid green;
+        border-radius: 5px;
+        font-size: medium;
+    }
+
+    .searchbar{
+        margin-top: 10px;
+        width: 20%;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .searchbar i{
+        position: absolute;
+    }
+    
+    .searchbar i{
+        padding: 10px;
+        font-size: 16px;
+        color: green;
+        min-width: 50px;
+        text-align: right;
+        top: 1px;
+        right: 3%;
+    }
+
+    .searchbar input{
+        width: 100%;
+        padding: 8px;
+        text-align: left;
+        &::-webkit-input-placeholder {
+            color: transparent;
+        }
+    }
+    nav a{
+        margin-top: 5%;
+        font-size: small;
+        text-decoration: none;
+        color: black;
+    }
 }
