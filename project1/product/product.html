@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="../nav.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a class="logo" href="../index/index.html"
+          ><img src="./image/logo.webp"
+        /></a>
+        <a href="../index/index.html">Home</a>
+        <div class="searchbar">
+          <input type="text" placeholder="search meds" id="search" />
+          <i class="glyphicon glyphicon-search" id="sb"></i>
+        </div>
+        <!-- <i class="bi bi-search"></i> -->
+        <a href="../signup/signup.html" id="s_up">Sign Up</a>
+      </nav>
+
+      <div class="g_pr">
+        <div id="p_pr">
+          <div id="more_img">
+            <img src="./image/med-kit.jpg" />
+            <img src="./image/med-kit.jpg" />
+            <img src="./image/med-kit.jpg" />
+          </div>
+          <div id="img_pr">
+            <img src="./image/med-kit.jpg" id="img_pr_main"/>
+          </div>
+        </div>
+        <div id="details_pr">
+          <h1 id="med_title">Title</h1>
+          <p id="para_pr">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+            quaerat laudantium laboriosam fugiat numquam ad?
+          </p>
+          <h4 style="color: grey">Price* :</h4>
+          <h2 id="med_price"></h2>
+          <button id="add_pr"><i class="bi bi-cart2"></i>ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./product.js"></script>
+  <script src="../nav.js"></script>
+</html>

@@ -1,0 +1,46 @@
+#signin_div{
+    margin: auto;
+    margin-top: 5%;
+    width: 30%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#signin_div input{
+    width: 100%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#signin{
+    background-color: teal;
+    color: white;
+    width: 30%;
+    border-radius: 20px;
+    font-size: medium   ;
+    border: none;
+    padding: 3% 2%;
+    margin-left: 10.5vw;
+}
+
+/* 755 px max width for responsive */
+
+@media screen and (max-width: 755px) {
+
+    #signin_div{
+        width: 65%;
+    }
+    
+    #signin{
+        width: 30%;
+        font-size: small;
+        padding: 4% 3%;
+        margin-left: 20vw;
+    }
+    
+}
