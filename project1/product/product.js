@@ -1,7 +1,7 @@
 const pid = localStorage.getItem("pid");
 console.log(pid);
 const flag=localStorage.getItem("flag");
-if(flag===0){
+if(flag==0){
 fetch(`http://localhost:8082/item/${pid}`, {
   method: "GET",
 })
