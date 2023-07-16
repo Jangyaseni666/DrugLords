@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Home</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../nav.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a class="logo" href=""><img src="./image/logo.webp" /></a>
+      <div class="home">
+        <a href=""><i class="bi bi-house-door"></i><text>Home</text></a>
+      </div>
+      <div class="searchbar">
+        <input type="text" placeholder="search" id="search" />
+        <i class="bi bi-search" id="sb"></i>
+      </div>
+      <div class="cart">
+        <a href="../cart/cart.html"><i class="bi bi-cart3"></i>Cart</a>
+      </div>
+      <div class="sign">
+        <a href="../signup/signup.html" id="s_up"
+          ><i class="bi bi-person-circle"></i>Sign Up</a
+        >
+      </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.w3schools.com/bootstrap5/chicago.jpg"
+            alt="Los Angeles"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.w3schools.com/bootstrap5/ny.jpg"
+            alt="Chicago"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.w3schools.com/bootstrap5/la.jpg"
+            alt="New York"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <br />
+
+    <div class="packages">
+      <div class="text-center mb-3 pb-3">
+        <h6 style="letter-spacing: 5px; text-align: center; color: green">
+          PRESCRIPTIONS
+        </h6>
+        <h1 style="text-align: center">Packages</h1>
+      </div>
+      <div class="package_list">
+        <div id="package1">
+          <img src="./image/med-kit.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            voluptate.
+          </p>
+          <button class="pckg-btn" id="1">Know more -></button>
+          <p></p>
+        </div>
+        <div id="package2">
+          <img src="./image/med-kit.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            voluptate.
+          </p>
+          <button class="pckg-btn" id="2">Know more -></button>
+        </div>
+        <div id="package3">
+          <img src="./image/med-kit.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            voluptate.
+          </p>
+          <button class="pckg-btn" id="3">Know more -></button>
+        </div>
+        <div id="package4">
+          <img src="./image/med-kit.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            voluptate.
+          </p>
+          <button class="pckg-btn" id="4">Know more -></button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <br />
+      <h1
+        class="text"
+        style="letter-spacing: 4px; color: green; padding-left: 2%"
+      >
+        DRUG-STORE
+      </h1>
+      <p style="color: black; padding-left: 2%">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+        provident.
+      </p>
+      <div class="footer_div">
+        <div class="col">
+          <h5 class="text text-uppercase mb-4">Company</h5>
+          <p>About netmeds</p>
+          <p>Customer speaks</p>
+          <p>In the news</p>
+          <p>Career</p>
+          <p>Contact</p>
+        </div>
+        <div class="col">
+          <h5 class="text text-uppercase mb-4">Our policies</h5>
+          <p>Terms & Conditions</p>
+          <p>Privacy policy</p>
+          <p>Fees and payment policy</p>
+          <p>Shipping and delivery policy</p>
+          <p>Return/Refund policy</p>
+        </div>
+        <div class="col">
+          <h5 class="text text-uppercase mb-4">Company</h5>
+          <p>About netmeds</p>
+          <p>Customer speaks</p>
+          <p>In the news</p>
+          <p>Career</p>
+          <p>Contact</p>
+        </div>
+        <div class="col">
+          <h5 class="text text-uppercase mb-4">Our policies</h5>
+          <p>Terms & Conditions</p>
+          <p>Privacy policy</p>
+          <p>Fees and payment policy</p>
+          <p>Shipping and delivery policy</p>
+          <p>Return/Refund policy</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+  <script src="../nav.js"></script>
+</html>

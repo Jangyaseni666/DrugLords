@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "email": "sidharthmishra10503@gmail.com",
+      "name": "sidharth",
+      "mob": "123456789",
+      "password": "12345",
+      "id": 1,
+      "pfp": "./images/pfp.jpg"
+    },
+    {
+      "email": "tanuj@gmail.com",
+      "name": "tanuj",
+      "mob": "1234567890",
+      "password": "12345",
+      "pfp": "./images/pfp.jpg",
+      "id": 2
+    },
+    {
+      "email": "jags@gmail.com",
+      "name": "jangyaseni",
+      "mob": "1234567890",
+      "password": "12345",
+      "pfp": "./images/pfp.jpg",
+      "id": 3
+    }
+  ],
+  "packages": [
+    {
+      "img": "./image/med-kit.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "p_id": "",
+      "qty": "",
+      "name": "aaa",
+      "price": 100,
+      "id": 1
+    },
+    {
+      "img": "./image/med-kit.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "p_id": "",
+      "qty": "",
+      "name": "bbb",
+      "price": 200,
+      "id": 2
+    },
+    {
+      "img": "./image/med-kit.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "p_id": "",
+      "qty": "",
+      "name": "ccc",
+      "price": 300,
+      "id": 3
+    },
+    {
+      "img": "./image/med-kit.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "p_id": "",
+      "qty": "",
+      "name": "ddd",
+      "price": 400,
+      "id": 4
+    }
+  ],
+  "item": [
+    {
+      "name": "abc",
+      "price": "100",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 1,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "200",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 2,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "aaa",
+      "price": "300",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 3,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "400",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 4,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "340",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 5,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "370",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 6,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "380",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 7,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    },
+    {
+      "name": "abc",
+      "price": "390",
+      "qty": "",
+      "img": "./image/image.jpg",
+      "id": 8,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate."
+    }
+  ],
+  "cart-items": [
+    {
+      "name": "abc",
+      "price": "100",
+      "qty": 2,
+      "img": "./image/image.jpg",
+      "pid": 1,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "inCart": false
+    },
+    {
+      "name": "abc",
+      "price": "400",
+      "qty": 3,
+      "img": "./image/image.jpg",
+      "pid": 4,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "inCart": false
+    },
+    {
+      "name": "abc",
+      "price": "380",
+      "qty": 2,
+      "img": "./image/image.jpg",
+      "pid": 7,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "inCart": false
+    },
+    {
+      "name": "abc",
+      "price": "380",
+      "qty": 1,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "2",
+      "pid": 7,
+      "inCart": false,
+      "id": 8
+    },
+    {
+      "name": "abc",
+      "price": "340",
+      "qty": 5,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "pid": 5,
+      "inCart": false,
+      "id": 9
+    },
+    {
+      "name": "aaa",
+      "price": "300",
+      "qty": 2,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "pid": 3,
+      "inCart": false,
+      "id": 10
+    },
+    {
+      "name": "abc",
+      "price": "400",
+      "qty": 3,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "pid": 4,
+      "inCart": false,
+      "id": 11
+    },
+    {
+      "img": "./image/med-kit.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "p_id": "",
+      "qty": 5,
+      "name": "bbb",
+      "price": 200,
+      "user": "1",
+      "pid": 2,
+      "inCart": false,
+      "id": 12
+    },
+    {
+      "name": "abc",
+      "price": "200",
+      "qty": 5,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "pid": 2,
+      "inCart": false,
+      "id": 13
+    },
+    {
+      "name": "aaa",
+      "price": "300",
+      "qty": 3,
+      "img": "./image/image.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptate.",
+      "user": "1",
+      "pid": 3,
+      "inCart": false,
+      "id": 14
+    }
+  ]
+}
